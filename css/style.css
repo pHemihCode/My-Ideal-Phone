@@ -1,0 +1,114 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto Slab', serif;
+    background-color: rgb(226, 226, 226);
+}
+.container{
+    width:1140px;
+}
+.phone{
+    background-image: url("/images/image2.jpg");
+    background-repeat: no-repeat;
+    background-position:cover;
+    width:23%;
+    height: 90%;
+    position:absolute;
+    top:5%;
+    left:15%;
+    border-radius: 25px;
+    border-top:11px solid black;
+    border-bottom:15px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    z-index:1;
+}
+.phone img{
+    width:13px;
+    height:auto;
+    position:absolute;
+    left:8%;
+    top:2%;
+}
+.top-icons{
+    position:absolute;
+    right:5%;
+    top:1%;
+}
+.fa-signal{
+    font-size:10px;
+}
+.fa-battery-full{
+    font-size:14px;
+}
+.time{
+  position:absolute;
+  top:25%;
+  left:30%;
+  color:white;
+}
+.time h1{
+    font-weight:100;
+    font-size:1.9em;
+}
+.time p{
+    font-weight:100;
+}
+i{
+    color:white;
+}
+.fa-camera{
+    position:absolute;
+    right:5%;
+    bottom:2%;
+}
+.fa-phone{
+    position:absolute;
+    left:5%;
+    bottom:2%;
+}
+.phone2{
+    background-color: rgb(170, 167, 167);
+    width:23%;
+    height:90%;
+    position:absolute;
+    top:5%;
+    left:30%;
+    border-radius: 25px;
+}
+.main-camera{
+    width:50%;
+    background-color: rgb(51, 48, 48);
+    height:auto;
+    border-radius: 25px;
+    position:absolute;
+    right:2%;
+    top:2%;
+    display:grid;
+    grid-template-columns: auto auto;
+}
+.main-camera img{
+    width:60%;
+    margin: 10px;
+}
+.main-camera img:nth-child(4){
+     border-radius: 30px;
+     background-color: black;
+}
+/* ================================================480PX============================================= */
+@media screen and  (max-width:480px) {
+    .phone{
+        width:60%;
+        left:5%;
+    }
+    .phone2{
+        width:50%;
+        left:45%;
+    }
+    .time{
+        left:28%;
+    }
+}
