@@ -11,7 +11,7 @@ body{
     width:1140px;
 }
 .phone{
-    background-image: url("/images/image2.jpg");
+    background-image:url("/images/image2.jpg");
     background-repeat: no-repeat;
     background-position:cover;
     width:23%;
